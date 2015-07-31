@@ -1,0 +1,25 @@
+highlighter: pygments
+github: [{
+  "hostname": "github.com",
+  "pages_hostname": "github.io",
+  "environment": "dotcom",
+  "project_tagline": "A Github Pages site to showcase progress on FreeCodeCamp"
+, 
+}]
+safe: true
+lsi: false
+source: your top-level directory
+
+# Site settings
+title: Adventures in FreeCodeCamp
+email: rsanders@alforddesigngroup.com
+description: > # this means to ignore newlines until "baseurl:"
+  Solving problems and working on projects in FreeCodeCamp
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://reggie01.github.io./" # the base hostname & protocol for your site
+twitter_username: #jekyllrb
+github_username:  #jekyll
+
+# Build settings
+markdown: kramdown
+

@@ -1,7 +1,7 @@
 ---
 title: First Post
 category: FreeCodeCamp
-tags: FreeCodeCamp, JS
+tags: FreeCodeCamp, JS,
 ---
 
 First Post

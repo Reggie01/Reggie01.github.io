@@ -501,10 +501,7 @@ Bonfire: Pairwise
  }
  Initially failed test case because I pushed indices to pairArray before checking for their existence. Post-mortem I'm having mixed feelings about psuedocode. I rarely solve the problem on my initial attempt using psuedo code. Normally I almost solve the problem. Try implementing the pseudo code and then find out I forgot something. Then I fix the issue and end up changing the psuedo code to sorta match my implementation. I do like the psuedo code because it helps me think about the problem faster and not the code "syntax". 
  
- Zipline: Build a Personal Portfolio Webpage
- Read the problem: http://freecodecamp.com/challenges/zipline-build-a-personal-portfolio-webpage
- I started the zipline by just doing the html first. Then I plan to add the styling afterwards. Technologies I chose were bootstrap and jQuery. For design I tried implementing Google's Material Design. You can read (Material design)[https://www.google.com/design/spec/material-design/introduction.html] docs. Basic document styles i.e header, footer, etc. I implemented the specs according to material design. For conversion of sp(scalable pixels) I read this (post)[http://zerosixthree.se/8-sass-mixins-you-must-have-in-your-toolbox/] by author Sebastian Ekström. Extra information on formatting Bootstrap (buttons)[https://bootstrapbay.com/blog/bootstrap-button-styles/] can be found at this post.
- The next issue I had was how to display my portfolio. I chose to implement a card design choosen from Google's material design. Google has a recommended strategy for using cards listed on their (website)[https://www.google.com/design/spec/components/cards.html#cards-usage].
+
  
  Zipline: Build a Random Quote Machine
  Problem Explanation:
@@ -546,33 +543,7 @@ Bonfire: Pairwise
     How to make tweet buttons
     https://dev.twitter.com/web/tweet-button/parameters
 
-Zipline: Show the Local Weather 
- Problem Explanation: 
-    There is one user story, show the weather in user current location. Also, three optional stories show icon depending on temp, change background image based on temp and toggle button for Fahrenheit and Celsius. 
-  Hint: Choose a Weather API
-    You can search google or ask in the zipline chatroom for weather api choices. I did both. The choices offered in chat were in no particular order
-      - http://simpleweatherjs.com/ - Tons of demos
-      - https://developer.yahoo.com/weather/
-      - http://forecast.io/
-      - http://openweathermap.org/ Ea
-      
-    Hint: Chose a API for GEO location
-      - http://www.geonames.org/
-      - https://ipinfo.io/developers
-      
-      
-    Weather Conditions
-      Thunderstorm
-      Drizzle
-      Rain
-      Snow
-      Clouds
-      Atmosphere
-      Extreme
-      Additional
- 
- Optional Reading Material For Writing Ajax
-   - https://medium.com/coding-design/writing-better-ajax-8ee4a7fb95f
+
       
  
 Zipline: Build a Tic Tac Toe Game

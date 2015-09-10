@@ -37,8 +37,8 @@ Hint: Choose a Weather API
   Question: Where can I store my images if I use free version of codepen?
   Hint: The two suggestions I see given the most are github and [imgur](http://imgur.com/).
     
-  Question: Where can I get weahter icons?
-  Hint: Probably best answered by google or chat room. I used (weather icons)[http://erikflowers.github.io/weather-icons/] from a google search. I had an issue with the wind degree examples icons not working with the cdnjs address for the icons. I searched the source file and did not find the css classes for the images. A temporary fix is to use wind direction text. 
+  Question: Where can I get weather icons?
+  Hint: Probably best answered by google or chat room. I used [weather icons](http://erikflowers.github.io/weather-icons/) from a google search. I had an issue with the wind degree examples icons not working with the cdnjs address for the icons. I searched the source file and did not find the css classes for the images. A temporary fix is to use wind direction text. 
     
  Issues:
  I tried to over-engineer this problem without first completing the project first. Therefore I found myself removing time display. I started reading about implementation ideas for dealing with locale time. This is not in the user stories or the bonus user stories. So I am placing the locale time feature on the back burner. Another issue I ran into was using weather icons. The wind icons for degrees and cardinal direction were not present in the css file. Hopefully it will get fixed soon. Another issue I had was latitude and longitude not finding the correct location on my phone. I will need to google and explore this issue further. 
@@ -46,6 +46,7 @@ Hint: Choose a Weather API
  Implementation:
  The biggest implementation diffrences I seen between my project and others is that I choose to use hash maps in some situations instead of large if/switch statements.
  i.e. If statement route
+ 
  <code>
    if (data["id"] === 300) {
        // do something

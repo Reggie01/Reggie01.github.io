@@ -43,6 +43,24 @@ Hint: Choose a Weather API
   Question: Where can I get weather icons?
   Hint: Probably best answered by google or chat room. I used [weather icons](http://erikflowers.github.io/weather-icons/) from a google search. Remeber to include the wind-icon css to include wind icons in your project. There are mappings to popular weather [APIs](https://erikflowers.github.io/weather-icons/api-list.html) .
     
+  Question: I'm refactoring my event listeners. Is there a way to pass a callback with parameters to my event listeners?
+  Hint: Yes, I had a very similiar issue while refactoring my code. I wanted to use a single callback that would update the dom according to the parameters I chose. Initially, I was writing code like
+  <code>
+      /* 
+      function(e) {
+          e.currentTarget.className.indexOf( "something" );
+          // do some update to dom if correct event listener
+      }
+  </code>
+  which seemed tedious because I knew exactly what I wanted the code to do. So I used my google-fu and found this article [Javascript event handler with parameters](http://stackoverflow.com/questions/10000083/javascript-event-handler-with-parameters). TL;DR You have to pass a function that uses closure to the event listener. For example, 
+  <code>
+      function add(number) {
+          return function ( e ) {
+              updateDomElement(number);  // Will retain 
+          }
+      }
+      $( ".milesToRun" ).click( add(3) );
+  </code>
  Issues:
  I tried to over-engineer this problem without first completing the project first. Therefore I found myself removing time display. I started reading about implementation ideas for dealing with locale time. This is not in the user stories or the bonus user stories. So I am placing the locale time feature on the back burner. Another issue I ran into was using weather icons. The wind icons for degrees and cardinal direction were not present in the css file. Hopefully it will get fixed soon. Another issue I had was latitude and longitude not finding the correct location on my phone. I will need to google and explore this issue further. 
  

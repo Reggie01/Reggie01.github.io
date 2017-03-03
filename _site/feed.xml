@@ -4,11 +4,43 @@
     <title>Adventures in FreeCodeCamp</title>
     <description>Solving problems and working on projects in FreeCodeCamp
 </description>
-    <link>http://reggie01.github.io.//</link>
-    <atom:link href="http://reggie01.github.io.//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 03 Sep 2015 03:07:47 -0400</pubDate>
-    <lastBuildDate>Thu, 03 Sep 2015 03:07:47 -0400</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 02 Mar 2017 15:57:15 -0500</pubDate>
+    <lastBuildDate>Thu, 02 Mar 2017 15:57:15 -0500</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Build A Personal Portfolio Webpage</title>
+        <description>&lt;h1 id=&quot;build-a-personal-portfolio-webpage&quot;&gt;Build A Personal Portfolio Webpage&lt;/h1&gt;
+
+&lt;p&gt;I finished the first zipline in FreeCodeCamp build a personal portfolio webpage. FreeCodeCamp recently changed their website. This change lead to some ziplines coming earlier in their map, a list of tasks. I was further along in their curriculum but decided to go back and start the ziplines.&lt;/p&gt;
+
+&lt;p&gt;To start go read the instructions for the zipline &lt;a href=&quot;http://freecodecamp.com/challenges/zipline-build-a-personal-portfolio-webpage&quot;&gt;here&lt;/a&gt;. I started the zipline by doing the html first. Then I proceeded to add the styling afterwards. Where to start on the first zipline is one of the most asked questions in FCC. Starting with the html is one way to get the ball rolling along. Specifically, you can try implemting the navbar by reading the &lt;a href=&quot;http://getbootstrap.com/components/#nav&quot;&gt;bootstrap docs&lt;/a&gt;. If your comfortable with css and chrome dev tools you can start &lt;a href=&quot;http://getbootstrap.com/examples/navbar-static-top/&quot;&gt;here&lt;/a&gt; instead and use the Chrome dev tools to look at the nav. Hint: press F12 to bring up the chrome dev tools.&lt;/p&gt;
+
+&lt;p&gt;For design I tried implementing Google’s Material Design. You can read Material design &lt;a href=&quot;https://www.google.com/design/spec/material-design/introduction.html&quot;&gt;docs&lt;/a&gt;. Basic document styles i.e header, footer, etc. I implemented the specs according to material design. For conversion of sp,scalable pixels, I read this &lt;a href=&quot;http://zerosixthree.se/8-sass-mixins-you-must-have-in-your-toolbox/&quot;&gt;post&lt;/a&gt; by author Sebastian Ekström. Extra information on formatting Bootstrap &lt;a href=&quot;https://bootstrapbay.com/blog/bootstrap-button-styles/&quot;&gt;buttons&lt;/a&gt; can be found at this post.&lt;/p&gt;
+
+&lt;p&gt;The next issue I had was how to display my portfolio. I chose to implement a card design choosen from Google’s material design. Google has a recommended strategy for using cards listed  &lt;a href=&quot;https://www.google.com/design/spec/components/cards.html#cards-usage&quot;&gt;here&lt;/a&gt;. Another issue a lot of people run into implementing the background scroll effect to there site. You can do this by adding &lt;code&gt;background-attachment: fixed;&lt;/code&gt;. w3schools website has good example of this on there &lt;a href=&quot;http://www.w3schools.com/cssref/pr_background-attachment.asp&quot;&gt;website&lt;/a&gt; under the sub-heading More Examples.&lt;/p&gt;
+
+&lt;p&gt;Lastly, building the portfolio site was a nice change of pace from the algorithm problems in FCC. The hardest thing was setting up the initial tags and button styling in css. I spent the rest of my time looking for decent background images. I settled on  &lt;a href=&quot;https://stocksnap.io/&quot;&gt;photos&lt;/a&gt; from stocksnap. The photos there are great to get started with. Just be wary of using really big images. I try to keep my image sizes less than 1.5mb. If your looking for a helpful community to learn javascript I suggest &lt;a href=&quot;http://freecodecamp.com/&quot;&gt;freecodecamp&lt;/a&gt;. Till next time have great day!!&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 02 Mar 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/freecodecamp/2017/03/02/Portfolio.html</link>
+        <guid isPermaLink="true">http://localhost:4000/freecodecamp/2017/03/02/Portfolio.html</guid>
+        
+        <category>fcc,</category>
+        
+        <category>js,</category>
+        
+        <category>zipline,</category>
+        
+        <category>portfolio</category>
+        
+        
+        <category>FreeCodeCamp</category>
+        
+      </item>
     
       <item>
         <title>First Post</title>
@@ -16,20 +48,20 @@
 
 &lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;addCode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;lineno&quot;&gt;1 &lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;addCode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;2 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 </description>
         <pubDate>Fri, 31 Jul 2015 00:00:00 -0400</pubDate>
-        <link>http://reggie01.github.io.//freecodecamp/2015/07/31/FirstPost.html</link>
-        <guid isPermaLink="true">http://reggie01.github.io.//freecodecamp/2015/07/31/FirstPost.html</guid>
+        <link>http://localhost:4000/freecodecamp/2015/07/31/FirstPost.html</link>
+        <guid isPermaLink="true">http://localhost:4000/freecodecamp/2015/07/31/FirstPost.html</guid>
         
         <category>FreeCodeCamp,</category>
         
         <category>JS,</category>
         
         
-        <category>freecodecamp</category>
+        <category>FreeCodeCamp</category>
         
       </item>
     

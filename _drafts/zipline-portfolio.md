@@ -7,7 +7,7 @@ tags: fcc, js, zipline, portfolio
 Build A Personal Portfolio Webpage
 ==========
 
-I just finished the first zipline in FreeCodeCamp build a personal portfolio webpage. FreeCodeCamp recently changed their website. This change lead to some ziplines coming earlier in their map, a list of tasks. I was further along in their curriculum but decided to go back and start the ziplines. 
+I finished the first zipline in FreeCodeCamp build a personal portfolio webpage. FreeCodeCamp recently changed their website. This change lead to some ziplines coming earlier in their map, a list of tasks. I was further along in their curriculum but decided to go back and start the ziplines. 
 
 To start go read the instructions for the zipline [here](http://freecodecamp.com/challenges/zipline-build-a-personal-portfolio-webpage). I started the zipline by doing the html first. Then I proceeded to add the styling afterwards. Where to start on the first zipline is one of the most asked questions in FCC. Starting with the html is one way to get the ball rolling along. Specifically, you can try implemting the navbar by reading the [bootstrap docs](http://getbootstrap.com/components/#nav). If your comfortable with css and chrome dev tools you can start [here] (http://getbootstrap.com/examples/navbar-static-top/) instead and use the Chrome dev tools to look at the nav. Hint: press F12 to bring up the chrome dev tools.
 

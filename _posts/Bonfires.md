@@ -55,15 +55,7 @@ function convert(num){
 }
 
 
-Greenheart
-@kimsimmons Watch out, this might be a long one! 
-1. You need good communication (voice chat works the best)
-2. When you start working together; talk about how your workflow should look like so that both you and your partner can benefit from the time spent coding.
-3. Don't give too much away right away if you know the answer (and ask your partner to do the same for you) --> instead, let your partner think about the problem and use questions to guide him/her right.
-Questions help the other person learn easier, because then he/she really gets to think about what you're asking.
 
-Hope that helped! :)
-I might as well add something like this on freeCodeCamp's wiki under pair programming, because I believe this is something more people will find useful! ^^
 
 
 Bonfire: Search and Replace
@@ -543,7 +535,10 @@ Bonfire: Pairwise
     How to make tweet buttons
     https://dev.twitter.com/web/tweet-button/parameters
 
-
+ API Guidelines
+ This will discuss the methods you will use when dealing with APIs http://www.w3schools.com/tags/ref_httpmethods.asp. The most important one for now is GET method.
+  This is a general video about REST APIs - https://www.youtube.com/watch?v=7YcW25PHnAA
+  These will give you a high level overview of what your trying to accomplish. 
       
  
 Zipline: Build a Tic Tac Toe Game
@@ -604,3 +599,73 @@ Happy coding! :grinning:
 
 Debugging video 
 https://www.youtube.com/watch?v=-q1z8BPFItw
+
+
+Productivity tools 
+http://stackoverflow.com/questions/9115134/indent-javascript-code-written-in-on-line-in-notepad-or-else
+js beautifier
+  Remove unused css
+http://addyosmani.com/blog/removing-unused-css/
+https://github.com/giakki/uncss
+  Compress and gzip css on web server
+https://varvy.com/pagespeed/enable-compression.html
+  Browser caching
+https://varvy.com/pagespeed/leverage-browser-caching.html
+  Compress images
+https://tinyjpg.com/
+
+Ajax Tutorial Material
+https://www.youtube.com/watch?v=fEYx8dQr_cQ
+https://www.youtube.com/watch?v=7YcW25PHnAA
+http://www.w3schools.com/tags/ref_httpmethods.asp
+https://www.youtube.com/watch?v=obaSQBBWZLk
+
+How-to-Create IE-Only Stylesheet
+https://css-tricks.com/how-to-create-an-ie-only-stylesheet/
+
+Inspiration/Programmer Map
+http://www.vikingcodeschool.com/posts/why-learning-to-code-is-so-damn-hard
+
+
+Module Pattern
+http://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/
+
+Regex Resources
+http://regexcrossword.com/challenges/tutorial/puzzles/7
+https://github.com/freecodecamp/freecodecamp/wiki/js-regex
+
+Stats
+http://ashleynolan.co.uk/blog/frontend-tooling-survey-2015-results
+
+Zipline: Build a Personal Portfolio
+http://www.w3schools.com/cssref/pr_background-attachment.asp
+
+HTML5 Safari
+https://developer.apple.com/library/safari/documentation/AudioVideo/Conceptual/Using_HTML5_Audio_Video/PlayingandSynthesizingSounds/PlayingandSynthesizingSounds.html
+
+if('webkitAudioContext' in window) {
+    var context = new webkitAudioContext();
+} else {
+var context = new AudioContext();};
+
+FreeCodeCamp Icon
+https://s3.amazonaws.com/freecodecamp/favicons/favicon-32x32.png
+
+Code Guide by @mdo HTML and CSS
+http://mdo.github.io/code-guide/
+
+Web Site for Unit conversions
+https://www.unitjuggler.com/convert-speed-from-ms-to-mph.html
+
+How to Debug Javascript in console
+http://www.briangrinstead.com/blog/devtools-snippets
+https://developer.chrome.com/devtools/docs/authoring-development-workflow#snippets
+
+Help Channels FCC
+wiki help channels  -- cmd
+
+Javascript Prototypes
+http://blog.pluralsight.com/understanding-javascript-prototypes
+
+Jquery to Angular
+http://stackoverflow.com/questions/14994391/thinking-in-angularjs-if-i-have-a-jquery-background

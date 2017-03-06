@@ -15,3 +15,9 @@ Code
 function addCode() {
 }
 {% endhighlight %}
+
+### What is the key to the universe?
+<details>
+  <summary>Answer</summary>
+  42 is always the answer.
+</details>

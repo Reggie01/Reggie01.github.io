@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 02 Mar 2017 15:57:15 -0500</pubDate>
-    <lastBuildDate>Thu, 02 Mar 2017 15:57:15 -0500</lastBuildDate>
+    <pubDate>Fri, 03 Mar 2017 15:42:39 -0500</pubDate>
+    <lastBuildDate>Fri, 03 Mar 2017 15:42:39 -0500</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -51,6 +51,11 @@
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;lineno&quot;&gt;1 &lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;addCode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
 &lt;span class=&quot;lineno&quot;&gt;2 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
+&lt;h3 id=&quot;what-is-the-key-to-the-universe&quot;&gt;What is the key to the universe?&lt;/h3&gt;
+&lt;details&gt;
+  &lt;summary&gt;Answer&lt;/summary&gt;
+  42 is always the answer.
+&lt;/details&gt;
 </description>
         <pubDate>Fri, 31 Jul 2015 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/freecodecamp/2015/07/31/FirstPost.html</link>

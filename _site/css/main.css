@@ -115,6 +115,11 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .post-content h4 { font-size: 20px; }
 @media screen and (max-width: 800px) { .post-content h4 { font-size: 18px; } }
 
+/** Feature */
+.feature { /*background-image: url(https://static.pexels.com/photos/169573/pexels-photo-169573.jpeg);*/ background-image: url(https://static.pexels.com/photos/270360/pexels-photo-270360.jpeg); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; height: 100vh; position: relative; }
+.feature .feature-wrapper { position: absolute; padding: 24px 16px; background-color: rgba(0, 0, 0, 0.1); /*box-shadow: 0 4px 5px 0 rgba(0, 0, 0, .14), 0 1px 10px 0 rgba(0, 0, 0, .12), 0 2px 4px -1px rgba(0, 0, 0, .2);*/ top: 30%; left: 50%; transform: translate(-50%, -50%); }
+.feature .title { text-align: center; color: #fff; font-size: 112px; font-size: 2rem; font-family: 'Roboto', 'Helvetica', sans-serif; font-weight: 300; }
+
 /** Syntax highlighting styles */
 .highlight { background: #fff; }
 .highlight .c { color: #998; font-style: italic; }

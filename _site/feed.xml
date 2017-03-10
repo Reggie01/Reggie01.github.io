@@ -6,9 +6,68 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 03 Mar 2017 15:42:39 -0500</pubDate>
-    <lastBuildDate>Fri, 03 Mar 2017 15:42:39 -0500</lastBuildDate>
+    <pubDate>Fri, 10 Mar 2017 01:57:20 -0500</pubDate>
+    <lastBuildDate>Fri, 10 Mar 2017 01:57:20 -0500</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Build A Random Quote Machine</title>
+        <description>&lt;h1 id=&quot;build-a-random-quote-machine&quot;&gt;Build A Random Quote Machine&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Do you ever feel like pushing a button to find hope, gain inspiration, or direction in life. Today is your lucky day we’re discussing building a quote machine.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;current-mission&quot;&gt;Current Mission&lt;/h2&gt;
+&lt;p&gt;The random quote machine project is from fcc, Free Code Camp, intermediate front end development projects. There are two user stories. First, user can click a button to show a new random quote. Second, user can press a button to tweet out a quote. Additional details about the project can be found on &lt;a href=&quot;https://www.freecodecamp.com/challenges/build-a-random-quote-machine&quot;&gt;fcc&lt;/a&gt; website.
+—-&lt;/p&gt;
+
+&lt;h3 id=&quot;where-should-i-get-quotes&quot;&gt;Where should I get quotes?&lt;/h3&gt;
+&lt;p&gt;There are two options for quotes, create and find your own quotes or use an api. Two beginner friendly quote apis I found were [quotesondesign](https://quotesondesign.com/ and &lt;a href=&quot;http://forismatic.com/en/&quot;&gt;forismatic&lt;/a&gt;
+You can search google or ask in the fcc chatroom for more quote api choices. I chose the &lt;a href=&quot;http://forismatic.com/en/api/&quot;&gt;forismatic&lt;/a&gt; api because the documentation was easy to understand.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-do-i-make-calls-to-an-api&quot;&gt;How do I make calls to an API?&lt;/h3&gt;
+&lt;p&gt;This is the most asked question in fcc chatrooms about this particular project. You can use ajax to make http request to retrieve data from a server. I suggest using jquery to make &lt;a href=&quot;http://api.jquery.com/jquery.ajax/&quot;&gt;ajax&lt;/a&gt; calls to the API. If you prefer vanilla javascript I suggest MDN, Mozilla Developer Network, article &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/AJAX/Getting_Started&quot;&gt;“Getting Started”&lt;/a&gt;. Also, &lt;a href=&quot;https://www.youtube.com/watch?v=h0ZUpPiV1ac&amp;amp;index=2&amp;amp;list=PL4cUxeGkcC9jAhrjtZ9U93UMIhnCc44MH&quot;&gt;The Net Ninja&lt;/a&gt; youtube video is an easy to understand video on how to use AJAX and vanilla javascript.&lt;/p&gt;
+
+&lt;h3 id=&quot;issues&quot;&gt;Issues&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;My biggest issue with this application was making my container div expand the length of the screen. The content height was 350px. So my application on a large screen size had extra white space. To correct this I needed to set the html and body height property to 100% in my css.
+&lt;code&gt;
+    html, body {
+        height: 100%;
+    }
+ &lt;/code&gt;
+Now I had a background that would span the height of the viewport.&lt;/li&gt;
+  &lt;li&gt;The next minor issue was dealing with smaller screen sizes. Your layout will break on smaller screen sizes. i.e If your content is scrollable on a smaller device height: 100% only covers the viewport. So anything below the initial viewport the layout is broken. Therefore add a min-height to correct this issue.
+ For more information read: 
+   &lt;a href=&quot;http://webdesign.about.com/od/csstutorials/f/set-css-height-100-percent.htm&quot;&gt;Height: 100%&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Implementation:&lt;/p&gt;
+
+&lt;h4 id=&quot;optional-reading-material&quot;&gt;Optional Reading Material&lt;/h4&gt;
+&lt;h5 id=&quot;writing-ajax-using-promises&quot;&gt;Writing Ajax using Promises&lt;/h5&gt;
+
+&lt;p&gt;Another article explaining &lt;a href=&quot;http://www.mattboldt.com/css-100-percent-height/&quot;&gt;height&lt;/a&gt; property in css.&lt;/p&gt;
+
+&lt;p&gt;Have A Good Day!!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 09 Mar 2017 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/freecodecamp/2017/03/09/quoteMachine.html</link>
+        <guid isPermaLink="true">http://localhost:4000/freecodecamp/2017/03/09/quoteMachine.html</guid>
+        
+        <category>fcc,</category>
+        
+        <category>js,</category>
+        
+        <category>zipline,</category>
+        
+        <category>quotes</category>
+        
+        
+        <category>FreeCodeCamp</category>
+        
+      </item>
     
       <item>
         <title>Build A Personal Portfolio Webpage</title>

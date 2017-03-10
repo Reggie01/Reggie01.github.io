@@ -23,13 +23,11 @@ This is the most asked question in fcc chatrooms about this particular project. 
     
 ### Issues
 - My biggest issue with this application was making my container div expand the length of the screen. The content height was 350px. So my application on a large screen size had extra white space. To correct this I needed to set the html and body height property to 100% in my css.
-<pre>
-```javascript
+  <code>
       html, body {
           height: 100%;
       }
-```
-</pre>
+ </code>
 Now I had a background that would span the height of the viewport. 
 - The next minor issue was dealing with smaller screen sizes. Your layout will break on smaller screen sizes. i.e If your content is scrollable on a smaller device height: 100% only covers the viewport. So anything below the initial viewport the layout is broken. Therefore add a min-height to correct this issue.
  For more information read: 

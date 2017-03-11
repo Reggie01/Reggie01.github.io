@@ -1,8 +1,7 @@
 # Site settings
-title: Adventures in FreeCodeCamp
+title: Jedawan | A journey to JS mastery
 email: reggie1se@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Solving problems and working on projects in FreeCodeCamp
+description: "This blog is about modern web development."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://reggie01.github.io./" # the base hostname & protocol for your site
 twitter_username: ReggieSanders7
@@ -23,3 +22,6 @@ github: [{
   "project_tagline": "A Github Pages site to showcase progress on FreeCodeCamp"
 , 
 }]
+
+gems:
+  - jekyll-sitemap

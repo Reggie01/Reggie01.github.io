@@ -7,6 +7,9 @@ url: "http://reggie01.github.io./" # the base hostname & protocol for your site
 twitter_username: ReggieSanders7
 github_username:  Reggie01
 
+# Google services
+google_analytics: 'UA-93729832-1'
+
 # Build settings
 markdown: kramdown
 encoding: utf-8

@@ -6,8 +6,6 @@ tags: fcc, js, zipline, quotes
 date: 2017-03-09
 ---
 
-# Build A Random Quote Machine
-
 >Do you ever feel like pushing a button to find hope, gain inspiration, or direction in life. Today is your lucky day we're discussing building a quote machine.
 
 ## Current Mission

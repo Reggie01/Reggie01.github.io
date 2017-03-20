@@ -5,15 +5,13 @@
     <description>This blog is about modern web development.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 14 Mar 2017 20:15:18 -0400</pubDate>
-    <lastBuildDate>Tue, 14 Mar 2017 20:15:18 -0400</lastBuildDate>
+    <pubDate>Mon, 20 Mar 2017 12:07:01 -0400</pubDate>
+    <lastBuildDate>Mon, 20 Mar 2017 12:07:01 -0400</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
         <title>Build A Random Quote Machine</title>
-        <description>&lt;h1 id=&quot;build-a-random-quote-machine&quot;&gt;Build A Random Quote Machine&lt;/h1&gt;
-
-&lt;blockquote&gt;
+        <description>&lt;blockquote&gt;
   &lt;p&gt;Do you ever feel like pushing a button to find hope, gain inspiration, or direction in life. Today is your lucky day we’re discussing building a quote machine.&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -102,14 +100,7 @@ Now I had a background that would span the height of the viewport.&lt;/li&gt;
     
       <item>
         <title>First Post</title>
-        <description>&lt;h1 id=&quot;first-post&quot;&gt;First Post&lt;/h1&gt;
-
-&lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;lineno&quot;&gt;1 &lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;addCode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;2 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;what-is-the-key-to-the-universe&quot;&gt;What is the key to the universe?&lt;/h3&gt;
+        <description>&lt;h2 id=&quot;what-is-the-key-to-the-universe&quot;&gt;What is the key to the universe?&lt;/h2&gt;
 &lt;details&gt;
   &lt;summary&gt;Answer&lt;/summary&gt;
   42 is always the answer.

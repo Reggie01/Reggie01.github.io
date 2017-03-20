@@ -4,7 +4,8 @@ email: reggie1se@gmail.com
 description: "This blog is about modern web development."
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://reggie01.github.io./" # the base hostname & protocol for your site
-twitter_username: Reggie0_0?utm_source=twitter&utm_medium=organic&utm_campaign=clickTwitter
+twitter_username: Reggie0_0
+twitter_link: Reggie0_0?utm_source=twitter&utm_medium=organic&utm_campaign=clickTwitter
 github_username:  Reggie01
 
 # Google services

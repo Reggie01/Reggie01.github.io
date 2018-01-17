@@ -11,7 +11,8 @@ Build A Personal Portfolio Webpage
              <img class="img-rounded" src="http://placehold.it/150x150" alt="Placeholder" />
              
 2. Screenshots
-  https://web-capture.net/             
+  https://web-capture.net/    - project needs to be on a live server.
+  http://www.page2images.com/
 
 I finished the first zipline in FreeCodeCamp build a personal portfolio webpage. FreeCodeCamp recently changed their website. This change lead to some ziplines coming earlier in their map, a list of tasks. I was further along in their curriculum but decided to go back and start the ziplines. 
 

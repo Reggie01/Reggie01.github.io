@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://reggie01.github.io./" # the base hostname & protocol for your site
 twitter_username: Reggie0_0
 github_username:  Reggie01
+author: reggie
 
 # Google services
 google_analytics: 'UA-93729832-1'

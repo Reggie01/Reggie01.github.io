@@ -3,6 +3,7 @@ layout: post
 title: Build A Personal Portfolio Webpage
 category: FreeCodeCamp
 tags: fcc, js, zipline, portfolio
+description: build a personal portfolio webpage from freecodecamp
 ---
 
 Build A Personal Portfolio Webpage

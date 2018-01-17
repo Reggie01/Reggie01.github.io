@@ -3,6 +3,7 @@ layout: post
 title: Build A Random Quote Machine
 category: FreeCodeCamp
 tags: fcc, js, zipline, quotes
+description: build a random quote machine from freecodecamp 
 date: 2017-03-09
 ---
 

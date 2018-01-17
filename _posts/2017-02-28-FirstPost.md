@@ -3,6 +3,7 @@ layout: post
 title: First Post
 category: FreeCodeCamp
 tags: FreeCodeCamp, JS,
+description: Introduction blog about javascript journey
 ---
 
 Hello, nice to meet you. Today I'm writing my first blog. I have been following free code camp curriculum for over a year and half. I feel like my progress has been up and down. The main reason is because I did'nt get involved in the community enough. IMO, learning to code alone is only so helpful. You need to communicate your ideas with a variety of people, techies, marketers, etc. By sharing knowledge and receiving feedback you can create a positive feedback loop to accelerate your learning process. 

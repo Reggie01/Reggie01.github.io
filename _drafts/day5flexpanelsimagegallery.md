@@ -5,7 +5,7 @@ category: Javascript30
 tags: js, html, css
 description: Review Javascript30 Day 5: Flex Panels Image Gallery
 image: https://images.unsplash.com/photo-1504066116688-57c2efd91274?auto=format&fit=crop&w=1500&q=80
-date: 2018-01
+
 ---
 
 >The doors we open and close each day decide the lives we live. -Flora Whittemore

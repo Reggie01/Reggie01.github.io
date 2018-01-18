@@ -17,6 +17,8 @@ markdown: kramdown
 encoding: utf-8
 safe: true
 lsi: false
+show_drafts: true
+
 #source: your top-level directory
 highlighter: pygments
 excerpt_separator: ""   # Workaround for http://blog.slaks.net/2013-08-09/jekyll-tag-was-never-closed

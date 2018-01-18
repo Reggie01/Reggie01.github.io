@@ -16,16 +16,16 @@ Day 5: Flex Panels Image Gallery challenge is to create transitions when panels 
 ## Set up initial look of webpage
 In this challenge we first need to set up the page.
   1. The panel elements need to display vertically and not horizontally. We can solve this by changing the display on our panels.
-  {{code}}
+  ```css
   .panels {
       ...
       display: flex;
     }
-  {{/code}}
+  ```
   2. The panel needs to expand in size when clicked on. To achieve this effect we need to add
-  {{code}}
+  ```css
   flex-grow : #number
-  {{/code}}
+  ```
 ### Add Event Listeners, Paragraph Transitions
     
 ### Issues

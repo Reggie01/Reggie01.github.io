@@ -19,7 +19,7 @@ safe: true
 lsi: false
 
 #source: your top-level directory
-highlighter: pygments
+highlighter: rouge
 excerpt_separator: ""   # Workaround for http://blog.slaks.net/2013-08-09/jekyll-tag-was-never-closed
 github: [{
   "hostname": "github.com",

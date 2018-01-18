@@ -17,7 +17,6 @@ markdown: kramdown
 encoding: utf-8
 safe: true
 lsi: false
-#show_drafts: true
 
 #source: your top-level directory
 highlighter: pygments
